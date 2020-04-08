@@ -13,7 +13,7 @@ const Endpoint = "https://google.com/recaptcha/api/siteverify"
 
 // Request holds the payload to be sent to reCAPTCHA's API.
 type Request struct {
-	// 	Required. The shared key between your site and reCAPTCHA.
+	// Required. The shared key between your site and reCAPTCHA.
 	Secret string
 
 	// Required. The user response token provided by the reCAPTCHA client-side integration on your site.
