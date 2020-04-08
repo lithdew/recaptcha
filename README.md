@@ -6,7 +6,7 @@
 
 **recaptcha** is a package that handles verifying reCAPTCHA v2/v3 submissions in Go.
 
-- Validating a verification request, sending a verification request, and parsing a verification response, are split into separate functions.
+- Validating a verification request, sending a verification request, and parsing a verification response are separated into individual functions.
 - Validates and double-checks all outgoing requests and incoming responses for errors.
 - Interoperable and made easy to work with both reCAPTCHA v2 and v3.
 - Uses [valyala/fasthttp](https://github.com/valyala/fasthttp) for sending reCAPTCHA request with an optional timeout.
